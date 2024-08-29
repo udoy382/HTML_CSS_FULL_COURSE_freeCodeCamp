@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h3{
+            color: rgb(206, 96, 96);
+        }
+        #navbar{
+            padding: 8px;
+        }
+        #banner_img{
+            object-fit: cover;
+        }
+        #about{
+            display: flex;
+            
+        }
+        #description{
+            width: 50%;
+            background-color: rgb(94, 127, 127);
+        }
+        #team{
+            width: 50%;
+            background-color: cadetblue;
+        }
+        h3{
+            margin: 5px;
+        }
+        .apply{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(29, 101, 82);
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        ul li{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <h3>This is logo</h3>
+    </div>
+    <div>
+        <img src="https://images.unsplash.com/photo-1459499362902-55a20553e082?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="banner_img" alt="career image" height="360px">
+        <h1 style="text-align: center; color:darkblue">About Jovin</h1>
+        <div id="about">
+            <div id="description">
+                Description
+            </div>
+            <div id="team">
+                Team image
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis ullam accusamus ad neque voluptate architecto nesciunt, earum cumque asperiores similique numquam illo consequuntur fuga aspernatur ratione, qui quae veniam!</p>
+        <img src="https://plus.unsplash.com/premium_photo-1677529496297-fd0174d65941?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="team_img" alt="team" height="160px">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, quam!
+            <ol>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">Lorem ipsum dolor sit amet.</a>
+                </li>
+                <li>
+                    <a href="https://www.x.com" target="_blank">Lorem ipsum dolor sit amet.</a>
+                </li>
+            </ol>
+        </p>
+    </div>
+    <div>
+        <div>
+            <a href="mailto:udoy436@gmail.com?subject=Backend" class="apply">Apply</a>
+            <h3>Job Opportunities</h3>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div>
+            <a href="#" class="apply">Apply</a>
+            <h3>Frontend Developer</h3>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div>
+            <a href="#" class="apply">Apply</a>
+            <h3>Backend Developer</h3>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+    </div>
+    <div>
+        <ul>
+            <li>Course</li>
+            <li>Programs</li>
+            <li>YouTube</li>
+        </ul>
+        <span>&copy; Copyright 2024</span>
+    </div>
+</body>
+</html>
